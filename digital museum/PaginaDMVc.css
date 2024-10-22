@@ -1,0 +1,26 @@
+body {
+    background-image: url('Frame19.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.galeria{
+    position: absolute; top: 0px; left: 920px;
+}
+
+.editar{
+    position: absolute; top: 840px; left: 260px;
+}
+
+.comentar{
+    position: absolute; top: 860px; left: 746px;
+}
+
+.Seta{
+    position: absolute; top: 440px; left: 1120px;
+}
+

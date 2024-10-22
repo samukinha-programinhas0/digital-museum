@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>museum digital</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+    <a href="PaginaDMV.html">
+        <img src="Voltar.png" alt="Voltar_Site" class="voltar">
+        </a>
+    </div>
+
+    <div class="comentarios">
+    </div>
+    
+
+    <input type="text" id="textoInput" placeholder="Digite seu comentario" class="top2"> 
+    <button onclick="mostrarTexto()" class="topi2">colocar comentarios</button>
+
+    <script>
+        function mostrarTexto() {
+           
+           var texto = document.getElementById("textoInput").value;
+
+           
+           document.getElementById("resultado").innerText = texto;
+       }
+    </script>
+
+    <div class="caixa-com" id="resultado">
+
+    </div>
+
+    
+</body>
+</html>

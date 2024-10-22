@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+body{
+  background-image: url(Frame\ 20.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+    
+    }
+
+
+
+    
+
+    .texto{
+      width: 500px;
+      height: 250px;
+      position: absolute;
+     margin-left: 350px;
+     background-color: #9B5742;
+     border: 1px solid #000;
+    padding: 20px;
+    border-radius: 15px;
+     
+    }
+
+    .top{
+      width: 500px;
+      height: 140px;
+      font-size: 20px;
+      margin-top: 300px;
+      border-color: black;
+      margin-left: 90px;
+      
+    }
+
+    .topi{
+      width: 90px;
+      height: 60px;
+      font-size: 20px;
+      background-color: blue;
+      color: aliceblue;
+      margin-left: 60px;
+   
+      
+     }
+
+     .Seta{
+      position: absolute; 
+      top: 90px; 
+      left: 890px;
+      
+  }
+
+  .comentarios{
+    width: 500px;
+    height: 300px;
+    background-color: #9B5742;
+    margin-top: 40px;
+    margin-left: 405px;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .top2{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 120px;
+
+  }
+
+  .topi2{
+    width: 90px;
+    height: 40px;
+    background-color: blue;
+    color: aliceblue;
+    margin-top: 40px;
+  }
+
+  .caixa-com{
+    width: 500px;
+    height: 200px;
+    background-color: aliceblue;
+    margin-top: 40px;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 406px;
+    
+  }
+   
+
+.voltar{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  width: 7%;
+  height: 7%;
+}

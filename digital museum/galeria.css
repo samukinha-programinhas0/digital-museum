@@ -1,0 +1,11 @@
+
+.voltar{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: 7%;
+    height: 7%;
+}

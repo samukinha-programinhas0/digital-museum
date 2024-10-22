@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<div lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Digital Galeria</title>
+    <link rel="stylesheet" href="main.css">
+   </head>
+<body>
+    
+    <div class="texto" id="resultado">
+    </div>
+        
+    
+    <input type="text" id="textoInput" placeholder="Digite seu texto" class="top"> 
+    <button onclick="mostrarTexto()" class="topi">colocar discrição</button>
+    <button onclick="redirecionar()" class="Seta"></button>
+
+
+    <script>
+        function mostrarTexto() {
+           
+            var texto = document.getElementById("textoInput").value;
+
+            
+            document.getElementById("resultado").innerText = texto;
+        }
+
+        function redirecionar() {
+            
+            window.location.href = "https://www.exemplo.com"; 
+        }
+       
+    </script>
+
+<div class="Seta">
+    <a href="PaginaDMV.html">
+        <img width="60" height="90" src="Arrow.png">
+    </a>
+</div>
+
+
+    
+
+
+</body>
+</html>
